@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #007bb5;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header nav {
+            margin: 0;
+            padding: 0;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .product-title {
+            text-align: center;
+            margin-top: 20px;
+            color: #007bb5;
+        }
+        .product-images {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .product-images img {
+            width: 300px;
+            height: auto;
+            margin: 0 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product-description {
+            margin: 20px 0;
+        }
+        .price {
+            font-size: 24px;
+            color: #007bb5;
+        }
+        .reviews {
+            margin: 20px 0;
+        }
+        .add-to-cart {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .add-to-cart button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bb5;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .add-to-cart button:hover {
+            background-color: #005b89;
+        }
+        .related-products {
+            margin: 40px 0;
+        }
+        .related-products h2 {
+            text-align: center;
+            color: #007bb5;
+        }
+        .related-products .product {
+            display: inline-block;
+            width: 30%;
+            margin: 1.66%;
+            vertical-align: top;
+            text-align: center;
+        }
+        .related-products img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .related-products p {
+            margin: 10px 0;
+        }
+        footer {
+            background: #007bb5;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My E-commerce Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 class="product-title">Product Name</h1>
+        <div class="product-images">
+            <img src="product1.jpg" alt="Product Image 1">
+            <img src="product2.jpg" alt="Product Image 2">
+        </div>
+        <div class="product-description">
+            <h2>Description</h2>
+            <p>This is the product description. It provides details about the product, its features, and benefits.</p>
+        </div>
+        <div class="price">
+            <h2>Price: $99.99</h2>
+        </div>
+        <div class="reviews">
+            <h2>Reviews</h2>
+            <p>★★★★☆</p>
+            <p>Great product! Highly recommended.</p>
+        </div>
+        <div class="add-to-cart">
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="container related-products">
+        <h2>Related Products</h2>
+        <div class="product">
+            <img src="related1.jpg" alt="Related Product 1">
+            <p>Related Product 1</p>
+            <p>Price: $49.99</p>
+        </div>
+        <div class="product">
+            <img src="related2.jpg" alt="Related Product 2">
+            <p>Related Product 2</p>
+            <p>Price: $59.99</p>
+        </div>
+        <div class="product">
+            <img src="related3.jpg" alt="Related Product 3">
+            <p>Related Product 3</p>
+            <p>Price: $69.99</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>My E-commerce Site &copy; 2024</p>
+    </footer>
+</body>
+</html>
